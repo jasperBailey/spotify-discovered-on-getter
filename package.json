@@ -1,0 +1,18 @@
+{
+	"name": "spotify_playlist_crawler",
+	"version": "0.0.1",
+	"description": "Takes a bunch of playlists, and gets contact details where it can",
+	"main": "app.js",
+	"scripts": {
+		"start": "node --env-file=.env app.js"
+	},
+	"author": "Jasper Bailey",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^20.11.25"
+	},
+	"type": "module",
+	"dependencies": {
+		"selenium-webdriver": "^4.18.1"
+	}
+}

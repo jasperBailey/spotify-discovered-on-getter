@@ -1,0 +1,6 @@
+.env
+
+/node_modules
+/chrome_webdriver
+
+package-lock.json
